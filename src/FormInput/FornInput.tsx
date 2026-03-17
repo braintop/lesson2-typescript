@@ -127,4 +127,4 @@ const styles = {
   },
 };
 
-export default RegisterForm;
+export default FormInput;

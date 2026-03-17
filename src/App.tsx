@@ -4,7 +4,7 @@ import UserCard from './UserCard/UserCard'
 import { Counter } from './Copunter/Counter'
 import NameInput from './InputName/InputName'
 import { Toggle } from './Toggle/Toggle'
-
+import FormInput from './FormInput/FornInput'
 type UserType = {
   id: number;
   name: string;
@@ -47,6 +47,7 @@ function App() {
     <Counter />
     <NameInput />
     <Toggle />
+    <FormInput />
     </>
   )
 }
